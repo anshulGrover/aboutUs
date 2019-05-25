@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box; 
+}
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+/* header{
+    position: relative;
+    top:-15px;
+    left:-5px;
+    height:110px;
+} */
+section{
+    padding: .7em 3em;
+}
+.who-we-are,.mission,.contact{
+    background-color: #f4f4f4;
+    padding-bottom: 40px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+}
+.who-we-are h1{
+    font-size: 1.8em;
+    color: #202830;
+    font-weight: 800;
+}
+.who-we-are p{
+    font-size: 1em;
+    color: #afb0b4;
+    margin-top: -15px;
+}
+.intro-content,.mission-content,.people-content,.contact-content{
+    display: flex;
+    flex-direction: row;
+    padding: 3em; 
+}
+.intro-heading h1{
+    font-size: 2.6em;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #e30016;
+    font-weight: 200;
+    line-height: 1.2;
+}
+.intro-heading p{
+    color: #7a7c82;
+    font-size: 0.90rem;
+    text-align: center;
+}
+.intro-main-content p{
+    font-size: 15px;
+    color: #7a7c82;
+    padding-left: 80px;
+    word-spacing: 10px;
+    margin-top:-1px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.mission-item p{
+    font-size: 15px;
+    color: #7a7c82;
+    word-spacing: 10px;
+    margin-top:-5px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.mission-item{
+    margin-top:-50px;
+    margin-left: 10px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.mission-item h1{
+    font-size: 1em;
+    font-weight: 700;
+}
+.mission-item:hover{
+    color: #e30016;
+}
+.person{
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left:20px;
+}
+.person img{
+    width:100%;
+    vertical-align:middle;
+}
+.person-name{
+    color: #e30016;
+    font-weight: 700;
+    margin-bottom: -4px;
+}
+.person-designation{
+    color: #4d5359;
+}
+.form-group,.map,.address-time{
+    padding-left: 15px;
+    padding-right: 15px;   
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.form{
+        display: block;
+        width: 100%;
+        padding: .375em .75em;
+        margin: 12px;
+        font-size: 1em;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25em;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around; 
+}
+.form-btn{
+    color: #fff;
+    background-color: #bd2130;
+    border-color: #b21f2d;
+}
+.address-item h5{
+    font-size: 1em;
+    color: #000000;
+}
+.address-points{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    color: #7a7c82;
+    margin-left: 5px;
+    margin-top: -10px;
+    line-height: 1.3rem;
+}
+.address-points svg{
+    margin-top: 13px;
+    margin-right: 10px;
+    
+}
+.address-item{
+    margin-top:-10px;
+    margin-left: 20px;
+    line-height: 0;  
+}
+
